@@ -1,3 +1,4 @@
+/*index.html*/
 * {
     margin: 0;
     padding: 0;
@@ -66,11 +67,12 @@ body {
 .popis {
     font-size: 20px;
     padding: 10px;
-    margin-right: 1000px;
+    padding-right: 1000px;
     margin-top: 40px;
     font-family: 'Roboto';
     font-size: 22px;
     color: #94a3b8;
+
 }
 
 .sidebar-icon {
@@ -119,4 +121,56 @@ body {
 
 #sidebar-toggle:checked ~ .content {
     margin-left: 270px;
+}
+
+/*about.html*/
+
+.content h2 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 1000px;
+    margin: 15px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #94a3b8;
+
+}
+
+
+.living  {
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.zajmy  {
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.uspechy  {
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cile  {
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projekty {
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
