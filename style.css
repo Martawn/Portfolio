@@ -11,7 +11,19 @@ body {
     background-color: #171717;
     color: white;
     transition: margin-left 0.4s ease-out;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 #sidebar-toggle {
     display: none;
