@@ -1,4 +1,3 @@
-/*index.html*/
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +12,7 @@ body {
     transition: margin-left 0.4s ease-out;
     opacity: 0;
     animation: fadeIn 0.5s ease-in forwards;
+    flex-direction: column;
 }
 
 @keyframes fadeIn {
@@ -73,6 +73,7 @@ body {
     font-size: 30px;
     transition: margin-left 0.4s ease-out;
     margin-top: 40px;
+    flex: 1;
 }
 
 .popis {
@@ -134,7 +135,10 @@ body {
     margin-left: 270px;
 }
 
-/*about.html*/
+.content {
+    text-align: center;
+    width: 100%;
+}
 
 .content h2 {
     padding: 20px;
@@ -168,6 +172,15 @@ body {
 
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.images {
+    width: 50%;
+    transition:  0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1);
+    position: relative;
+    z-index: 1;
 }
 
 .cile  {
@@ -246,7 +259,7 @@ font-family: 'Roboto';
     z-index: 1;
 }
 
-.images:hover {
+.images:active {
     transform: scale(1.5);
     z-index: 10;
     transition: transform 0.3s ease-in-out, z-index 0s;
@@ -281,4 +294,72 @@ font-family: 'Roboto';
     margin-right: 10px;
     font-size: 32px;
     vertical-align: middle;
+}
+
+.social-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 14px 24px;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: start;
+    transition: 0.3s ease-in;
+    background: rgba(17, 17, 17);
+    box-shadow: #292929 -3px 3px 0;
+    transition: 0.3s ease-in;
+    display: inline-block;
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+
+.social-btn:hover {
+box-shadow: rgba(17, 17, 17) -15px 15px 0;
+background: rgb(36, 36, 36);
+transition: 0.3s ease-in;
+}
+
+.social-btn i {
+margin-right: 10px;
+font-size: 32px;
+vertical-align: middle;
+}
+
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    color: #94a3b8;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+    color: #fff;
+}
+
+.footer p {
+    margin: 10px 0 0 0;
+}
+
+.footer small {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #94a3b8;
 }
