@@ -273,7 +273,7 @@ font-family: 'Roboto';
 
     
 .unity-btn:hover {
-    box-shadow: #151515 -15px 15px 0;
+    box-shadow: rgba(17, 17, 17) -15px 15px 0;
     background: rgb(36, 36, 36);
     transition: 0.3s ease-in;
 }
