@@ -267,7 +267,6 @@ font-family: 'Roboto';
         background: rgba(17, 17, 17);
         box-shadow: #292929 -3px 3px 0;
         transition: 0.3s ease-in;
-        width: 500px;
         display: inline-block;
 }
 
